@@ -129,16 +129,17 @@ html {
     text-align: center;
     font-size: 0.6rem;
     line-height: 0.35rem;
-    color: white;
+    color: rgb(212, 133, 49);
     position: absolute;
-    top: 63%;
-    left: 23%;
+    top: 66%;
+    left: 25%;
     letter-spacing: 0.5rem;
     font-weight: bold;
 }
 /*slide 动画*/
 #page1 h2:nth-child(1){
     animation:bounceInDown 1s linear 1s both;
+    -webkit-animation: bounceInDown 1s linear 1s both;
 }
 #page1 :nth-child(2){
     -webkit-animation: bounceInLeft 1s linear 3s both;
@@ -146,6 +147,7 @@ html {
 }
 #page1 :nth-child(3){
     animation:bounceIn 1s linear 2s both;
+    -webkit-animation:bounceIn 1s linear 2s both;
 }
 
 /*--slide2--*/
@@ -242,7 +244,7 @@ html {
     width: 5.7rem;
     transform: rotate(2deg);
     position: absolute;
-    height: 73%;
+    height: 75%;
 }
 .swiper-wrapper .titBg h2{
     position: absolute;
@@ -424,19 +426,19 @@ position: absolute;
     right: 5%;
 }
 .slide3 div:nth-child(5){
-    top:40%;
+    top:42%;
     right: 58%;
 }
 .slide3 div:nth-child(6){
-    top:40%;
+    top:42%;
     right:5%;
 }
 .slide3 div:nth-child(7){
-    top: 63%;
+    top: 67%;
     right: 58%;
 }
 .slide3 div:nth-child(8){
-    top:63%;
+    top:67%;
     right:5%;
 }
 .slide3 span:nth-child(9){
@@ -466,7 +468,7 @@ position: absolute;
     font-size: 0.5rem;
     width: 100%;
     height: auto;
-    top: 46%;
+    top: 47%;
     left: -24%;
 }
 .slide3 span:nth-child(12){
@@ -476,7 +478,7 @@ position: absolute;
     font-size: 0.5rem;
     width: 100%;
     height: auto;
-    top: 46%;
+    top: 47%;
     left: 29%;
 }
 .slide3 span:nth-child(13){
@@ -486,7 +488,7 @@ position: absolute;
     font-size: 0.5rem;
     width: 100%;
     height: auto;
-    top: 69%;
+    top: 73%;
     left: -24%;
 }
 .slide3 span:nth-child(14){
@@ -496,7 +498,7 @@ position: absolute;
     font-size: 0.5rem;
     width: 100%;
     height: auto;
-    top: 69%;
+    top: 73%;
     left: 29%;
 }
 
@@ -742,7 +744,7 @@ position: absolute;
 .mDetial{
     border: 0.05rem solid rgba(255, 255, 0, 0.83);
     width: 5.5rem;
-    height: 73%;
+    height: 75%;
     position: absolute;
     top: 10%;
     left: 10%;
