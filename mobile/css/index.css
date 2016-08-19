@@ -35,7 +35,7 @@ html {
 }
 
 .music.move {
-    -webkit-animation: musicMove .5s linear 0s infinite both;
+    -webkit-animation: musicMove 0.5s linear 0s infinite both;
     animation: musicMove .5s linear 0s infinite both;
 }
 
@@ -82,10 +82,11 @@ html {
     color: #ffffff;
     height: 3.5rem;
     line-height: 3.5rem;
-    letter-spacing:  0.2rem;
+    letter-spacing: 0.2rem;
     width: 100%;
     text-align: center;
 }
+
 .slide1,.slide2,.slide3,.slide4{
     background: url("../img/back2.jpg")no-repeat;
     background-size:cover ;
@@ -95,6 +96,15 @@ html {
 .slide1{
     background: url("../img/back.jpg")no-repeat;
     background-size:cover ;
+}
+.slide1 h2:nth-child(2){
+    font-size: 0.90rem;
+    color: #ffffff;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.2rem;
+    width: 100%;
+    text-align: center;
 }
 .slide1 .myPic{
     width: 2.5rem;
@@ -127,14 +137,14 @@ html {
     font-weight: bold;
 }
 /*slide 动画*/
-#page1 .self{
-    animation:bounceInDown 1s linear 0s both;
+#page1 h2:nth-child(1){
+    animation:bounceInDown 1s linear 1s both;
 }
-#page1 .myPic{
+#page1 :nth-child(2){
     -webkit-animation: bounceInLeft 1s linear 3s both;
     animation: bounceInLeft 1s linear 3s both;
 }
-#page1 .myName{
+#page1 :nth-child(3){
     animation:bounceIn 1s linear 2s both;
 }
 
@@ -231,9 +241,8 @@ html {
     left: 6%;
     width: 5.7rem;
     transform: rotate(2deg);
-    position: relative;
-    /*opacity: 1;*/
-  /*  animation: zoomIn 1s;*/
+    position: absolute;
+    height: 73%;
 }
 .swiper-wrapper .titBg h2{
     position: absolute;
@@ -415,19 +424,19 @@ position: absolute;
     right: 5%;
 }
 .slide3 div:nth-child(5){
-    top:44%;
+    top:40%;
     right: 58%;
 }
 .slide3 div:nth-child(6){
-    top:44%;
+    top:40%;
     right:5%;
 }
 .slide3 div:nth-child(7){
-    top:74%;
-    right:58%;
+    top: 63%;
+    right: 58%;
 }
 .slide3 div:nth-child(8){
-    top:74%;
+    top:63%;
     right:5%;
 }
 .slide3 span:nth-child(9){
@@ -436,7 +445,7 @@ position: absolute;
     color: white;
     font-size: 0.5rem;
     width: 100%;
-    height: 100%;
+    height: auto;
     top: 21%;
     left: -24%;
 }
@@ -446,7 +455,7 @@ position: absolute;
     color: white;
     font-size: 0.5rem;
     width: 100%;
-    height: 100%;
+    height: auto;
     top: 21%;
     left: 29%;
 }
@@ -456,8 +465,8 @@ position: absolute;
     color: white;
     font-size: 0.5rem;
     width: 100%;
-    height: 100%;
-    top: 50%;
+    height: auto;
+    top: 46%;
     left: -24%;
 }
 .slide3 span:nth-child(12){
@@ -466,8 +475,8 @@ position: absolute;
     color: white;
     font-size: 0.5rem;
     width: 100%;
-    height: 100%;
-    top: 50%;
+    height: auto;
+    top: 46%;
     left: 29%;
 }
 .slide3 span:nth-child(13){
@@ -476,8 +485,8 @@ position: absolute;
     color: white;
     font-size: 0.5rem;
     width: 100%;
-    height: 100%;
-    top: 80%;
+    height: auto;
+    top: 69%;
     left: -24%;
 }
 .slide3 span:nth-child(14){
@@ -486,8 +495,8 @@ position: absolute;
     color: white;
     font-size: 0.5rem;
     width: 100%;
-    height: 100%;
-    top: 80%;
+    height: auto;
+    top: 69%;
     left: 29%;
 }
 
@@ -497,7 +506,7 @@ position: absolute;
     color: white;
     font-size: 0.5rem;
     width: 100%;
-    height: 100%;
+    height: auto;
     top:37px;
 }
 /*slide3 动画*/
@@ -733,7 +742,7 @@ position: absolute;
 .mDetial{
     border: 0.05rem solid rgba(255, 255, 0, 0.83);
     width: 5.5rem;
-    height: 9rem;
+    height: 73%;
     position: absolute;
     top: 10%;
     left: 10%;
