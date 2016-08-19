@@ -1,4 +1,4 @@
-html, body {
+﻿html, body {
     width: 100%;
     height: 100%;
     background: #EEE;
@@ -131,8 +131,8 @@ html {
     line-height: 0.35rem;
     color: rgb(212, 133, 49);
     position: absolute;
-    top: 66%;
-    left: 25%;
+    top: 69%;
+    left: 28%;
     letter-spacing: 0.5rem;
     font-weight: bold;
 }
@@ -142,12 +142,12 @@ html {
     -webkit-animation: bounceInDown 1s linear 1s both;
 }
 #page1 :nth-child(2){
-    -webkit-animation: bounceInLeft 1s linear 3s both;
-    animation: bounceInLeft 1s linear 3s both;
+    -webkit-animation: bounceInLeft 2s linear 4s both;
+    animation: bounceInLeft 2s linear 4s both;
 }
 #page1 :nth-child(3){
-    animation:bounceIn 1s linear 2s both;
-    -webkit-animation:bounceIn 1s linear 2s both;
+    animation:bounceIn 2s linear 2s both;
+    -webkit-animation:bounceIn 2s linear 2s both;
 }
 
 /*--slide2--*/
@@ -468,7 +468,7 @@ position: absolute;
     font-size: 0.5rem;
     width: 100%;
     height: auto;
-    top: 47%;
+    top: 49%;
     left: -24%;
 }
 .slide3 span:nth-child(12){
@@ -478,7 +478,7 @@ position: absolute;
     font-size: 0.5rem;
     width: 100%;
     height: auto;
-    top: 47%;
+    top: 49%;
     left: 29%;
 }
 .slide3 span:nth-child(13){
